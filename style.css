@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+html {
+    height: 100%;
+    width: 100%;
+  }
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.netflix-logo{
+    width: 200px;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: transparent;
+    
+}
+.sign-in{
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+select{
+    font-size: 15px;
+    width: 100px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+option{
+    background-color: transparent;
+    color: #2D2D2D;
+}
+.button-group{
+    
+    margin-left:30px;
+}
+.land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+.text-1{
+    text-align: center;
+    font-size: 30px;
+}
+.text-2{
+    text-align: center;
+    font-size: 20px;
+}
+.button-group-1{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    width: 500px;
+    height: 30px;
+    background-color: transparent;
+    color: gray;
+    font-size:20px ;
+    padding: 10px;
+    border-style: solid;
+}
+.get_stared{
+    width: 200px;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    border-style: none;
+}
+.main-2{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin: 0px;
+}
+hr{
+    border-width: 8px;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(92, 92, 92);
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.m-text{
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.tv-img{
+    width: 400px;
+    margin-left: 30px;
+}
+.box-img-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.faq{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.faq-section{
+    width: 1200px;
+    margin-left: 150px;
+}
+.accordion {
+    background-color: #2D2D2D;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    margin-top: 10px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  .panel {
+    padding: 0 18px;
+    background-color:#2D2D2D;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .faq-text{
+    text-align: center;
+  }
+  .button-group-2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .get_stared-1{
+    background-color: red;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+  }
+  footer{
+    margin-left: 40px;
+    padding: 30px;
+  }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+}
+  .grid-text{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    
+  }
+  .f-part{
+    margin: 30px;
+  }
+  .f-text{
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  #bnt-a:hover{
+    background-color: rgb(165, 7, 7);
+
+  }
